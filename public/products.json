@@ -1,0 +1,544 @@
+{
+    "products": [
+        {
+            "id": "1",
+            "name": "Gaming Laptop GX500",
+            "price": 1200,
+            "imgUrl": "https://example.com/laptops/gx500.jpg",
+            "category": "Laptops",
+            "specifications": [
+                "16GB RAM",
+                "512GB SSD",
+                "Intel Core i7",
+                "NVIDIA RTX 3060"
+            ],
+            "rating": 4.5,
+            "description": "High-performance laptop"
+        },
+        {
+            "id": "2",
+            "name": "Ultrabook Pro X",
+            "price": 950,
+            "imgUrl": "https://dlcdnwebimgs.asus.com/gain/d664baf7-9e2d-4279-b99d-a149d0fc05f0/w800",
+            "category": "Laptops",
+            "specifications": [
+                "8GB RAM",
+                "256GB SSD",
+                "Intel Core i5",
+                "Lightweight design"
+            ],
+            "rating": 4.2,
+            "description": "Sleek and portable"
+        },
+        {
+            "id": "3",
+            "name": "Workstation Beast 900",
+            "price": 2000,
+            "imgUrl": "https://example.com/laptops/wb900.jpg",
+            "category": "Laptops",
+            "specifications": [
+                "32GB RAM",
+                "1TB SSD",
+                "Intel Xeon",
+                "Quadro RTX 4000"
+            ],
+            "rating": 4.8,
+            "description": "Ultimate workstation"
+        },
+        {
+            "id": "4",
+            "name": "Budget Laptop A200",
+            "price": 400,
+            "imgUrl": "https://example.com/laptops/a200.jpg",
+            "category": "Laptops",
+            "specifications": [
+                "4GB RAM",
+                "128GB SSD",
+                "Intel Core i3",
+                "HD Display"
+            ],
+            "rating": 3.9,
+            "description": "Affordable and reliable"
+        },
+        {
+            "id": "5",
+            "name": "2-in-1 Convertible Laptop",
+            "price": 700,
+            "imgUrl": "https://example.com/laptops/convertible.jpg",
+            "category": "Laptops",
+            "specifications": [
+                "8GB RAM",
+                "256GB SSD",
+                "Intel Core i5",
+                "Touchscreen Display"
+            ],
+            "rating": 4.3,
+            "description": "Versatile 2-in-1 device"
+        },
+        {
+            "id": "6",
+            "name": "Professional Laptop ProMax",
+            "price": 1500,
+            "imgUrl": "https://example.com/laptops/promax.jpg",
+            "category": "Laptops",
+            "specifications": [
+                "16GB RAM",
+                "1TB SSD",
+                "Intel Core i9",
+                "4K Display"
+            ],
+            "rating": 4.6,
+            "description": "Perfect for professionals"
+        },
+        {
+            "id": "7",
+            "name": "Smartphone Z12",
+            "price": 800,
+            "imgUrl": "https://example.com/phones/z12.jpg",
+            "category": "Phones",
+            "specifications": [
+                "6.5-inch OLED",
+                "128GB Storage",
+                "Snapdragon 8 Gen 2",
+                "5000mAh Battery"
+            ],
+            "rating": 4.7,
+            "description": "Flagship smartphone"
+        },
+        {
+            "id": "8",
+            "name": "Smartphone A20",
+            "price": 300,
+            "imgUrl": "https://example.com/phones/a20.jpg",
+            "category": "Phones",
+            "specifications": [
+                "6.1-inch LCD",
+                "64GB Storage",
+                "MediaTek Helio P35",
+                "4000mAh Battery"
+            ],
+            "rating": 4.1,
+            "description": "Affordable smartphone"
+        },
+        {
+            "id": "9",
+            "name": "Smartphone Ultra X",
+            "price": 1000,
+            "imgUrl": "https://example.com/phones/ultrax.jpg",
+            "category": "Phones",
+            "specifications": [
+                "6.7-inch AMOLED",
+                "256GB Storage",
+                "Snapdragon 8 Gen 2",
+                "6000mAh Battery"
+            ],
+            "rating": 4.8,
+            "description": "Premium flagship phone"
+        },
+        {
+            "id": "10",
+            "name": "Budget Smartphone M10",
+            "price": 200,
+            "imgUrl": "https://example.com/phones/m10.jpg",
+            "category": "Phones",
+            "specifications": [
+                "6-inch LCD",
+                "32GB Storage",
+                "Quad-core Processor",
+                "3000mAh Battery"
+            ],
+            "rating": 3.8,
+            "description": "Entry-level smartphone"
+        },
+        {
+            "id": "11",
+            "name": "Gaming Smartphone Pro",
+            "price": 700,
+            "imgUrl": "https://example.com/phones/gamingpro.jpg",
+            "category": "Phones",
+            "specifications": [
+                "6.8-inch AMOLED",
+                "128GB Storage",
+                "Gaming Processor",
+                "5000mAh Battery"
+            ],
+            "rating": 4.5,
+            "description": "Designed for gaming"
+        },
+        {
+            "id": "12",
+            "name": "5G Smartphone Max",
+            "price": 600,
+            "imgUrl": "https://example.com/phones/5gmax.jpg",
+            "category": "Phones",
+            "specifications": [
+                "6.5-inch OLED",
+                "128GB Storage",
+                "5G Connectivity",
+                "4500mAh Battery"
+            ],
+            "rating": 4.4,
+            "description": "Future-ready phone"
+        },
+        {
+            "id": "13",
+            "name": "iPhone 14 Pro Max",
+            "price": 1199,
+            "imgUrl": "https://example.com/iphones/iphone14-pro-max.jpg",
+            "category": "iPhones",
+            "specifications": [
+                "6.7-inch Super Retina XDR",
+                "A16 Bionic Chip",
+                "48MP Main Camera",
+                "ProMotion Technology"
+            ],
+            "rating": 4.9,
+            "description": "Ultimate flagship phone"
+        },
+        {
+            "id": "14",
+            "name": "iPhone 13 Mini",
+            "price": 699,
+            "imgUrl": "https://example.com/iphones/iphone13-mini.jpg",
+            "category": "iPhones",
+            "specifications": [
+                "5.4-inch Super Retina XDR",
+                "A15 Bionic Chip",
+                "Dual 12MP Cameras",
+                "Compact and Lightweight"
+            ],
+            "rating": 4.7,
+            "description": "Small yet powerful"
+        },
+        {
+            "id": "15",
+            "name": "iPhone 12",
+            "price": 599,
+            "imgUrl": "https://example.com/iphones/iphone12.jpg",
+            "category": "iPhones",
+            "specifications": [
+                "6.1-inch Super Retina XDR",
+                "A14 Bionic Chip",
+                "Dual 12MP Cameras",
+                "MagSafe Charging"
+            ],
+            "rating": 4.6,
+            "description": "Great value for money"
+        },
+        {
+            "id": "16",
+            "name": "iPhone SE (3rd Gen)",
+            "price": 429,
+            "imgUrl": "https://example.com/iphones/iphone-se-2022.jpg",
+            "category": "iPhones",
+            "specifications": [
+                "4.7-inch Retina HD Display",
+                "A15 Bionic Chip",
+                "12MP Rear Camera",
+                "Touch ID"
+            ],
+            "rating": 4.5,
+            "description": "Compact and affordable"
+        },
+        {
+            "id": "17",
+            "name": "iPhone 11 Pro",
+            "price": 899,
+            "imgUrl": "https://example.com/iphones/iphone11-pro.jpg",
+            "category": "iPhones",
+            "specifications": [
+                "5.8-inch Super Retina XDR",
+                "A13 Bionic Chip",
+                "Triple 12MP Cameras",
+                "Night Mode"
+            ],
+            "rating": 4.4,
+            "description": "Professional-grade photos"
+        },
+        {
+            "id": "18",
+            "name": "iPhone XR",
+            "price": 499,
+            "imgUrl": "https://example.com/iphones/iphone-xr.jpg",
+            "category": "iPhones",
+            "specifications": [
+                "6.1-inch Liquid Retina HD",
+                "A12 Bionic Chip",
+                "12MP Rear Camera",
+                "Face ID"
+            ],
+            "rating": 4.3,
+            "description": "Classic and colorful"
+        },
+        {
+            "id": "19",
+            "name": "MacBook Air M1",
+            "price": 999,
+            "imgUrl": "https://example.com/macbooks/macbook-air-m1.jpg",
+            "category": "MacBook",
+            "specifications": [
+                "Apple M1 Chip",
+                "13.3-inch Retina Display",
+                "8GB RAM",
+                "256GB SSD"
+            ],
+            "rating": 4.8,
+            "description": "Lightweight and powerful"
+        },
+        {
+            "id": "20",
+            "name": "MacBook Pro 14-inch M1 Pro",
+            "price": 1999,
+            "imgUrl": "https://example.com/macbooks/macbook-pro-14.jpg",
+            "category": "MacBook",
+            "specifications": [
+                "Apple M1 Pro Chip",
+                "14.2-inch XDR Display",
+                "16GB RAM",
+                "512GB SSD"
+            ],
+            "rating": 4.9,
+            "description": "Professional-grade power"
+        },
+        {
+            "id": "21",
+            "name": "MacBook Air M2",
+            "price": 1299,
+            "imgUrl": "https://example.com/macbooks/macbook-air-m2.jpg",
+            "category": "MacBook",
+            "specifications": [
+                "Apple M2 Chip",
+                "13.6-inch Liquid Retina",
+                "8GB RAM",
+                "256GB SSD"
+            ],
+            "rating": 4.7,
+            "description": "Stylish and advanced"
+        },
+        {
+            "id": "22",
+            "name": "MacBook Pro 16-inch M1 Max",
+            "price": 2999,
+            "imgUrl": "https://example.com/macbooks/macbook-pro-16.jpg",
+            "category": "MacBook",
+            "specifications": [
+                "Apple M1 Max Chip",
+                "16.2-inch XDR Display",
+                "32GB RAM",
+                "1TB SSD"
+            ],
+            "rating": 5.0,
+            "description": "Ultimate performance"
+        },
+        {
+            "id": "23",
+            "name": "MacBook Air 2020 Intel",
+            "price": 899,
+            "imgUrl": "https://example.com/macbooks/macbook-air-intel.jpg",
+            "category": "MacBook",
+            "specifications": [
+                "Intel Core i5",
+                "13.3-inch Retina Display",
+                "8GB RAM",
+                "256GB SSD"
+            ],
+            "rating": 4.5,
+            "description": "Classic and reliable"
+        },
+        {
+            "id": "24",
+            "name": "MacBook Pro 13-inch M2",
+            "price": 1499,
+            "imgUrl": "https://example.com/macbooks/macbook-pro-13.jpg",
+            "category": "MacBook",
+            "specifications": [
+                "Apple M2 Chip",
+                "13.3-inch Retina Display",
+                "8GB RAM",
+                "512GB SSD"
+            ],
+            "rating": 4.8,
+            "description": "Compact and efficient"
+        },
+        {
+            "id": "25",
+            "name": "Smartwatch Series 6",
+            "price": 400,
+            "imgUrl": "https://example.com/smartwatches/series6.jpg",
+            "category": "Smart Watches",
+            "specifications": [
+                "Always-On Retina Display",
+                "Blood Oxygen Sensor",
+                "Heart Rate Monitoring",
+                "50m Water Resistance"
+            ],
+            "rating": 4.8,
+            "description": "Feature-packed smartwatch"
+        },
+        {
+            "id": "26",
+            "name": "Fitness Watch FitPro",
+            "price": 150,
+            "imgUrl": "https://example.com/smartwatches/fitpro.jpg",
+            "category": "Smart Watches",
+            "specifications": [
+                "Fitness Tracking",
+                "Sleep Monitoring",
+                "1.4-inch AMOLED Display",
+                "10-Day Battery Life"
+            ],
+            "rating": 4.5,
+            "description": "Ideal for fitness enthusiasts"
+        },
+        {
+            "id": "27",
+            "name": "Luxury Smartwatch Luxe",
+            "price": 600,
+            "imgUrl": "https://example.com/smartwatches/luxe.jpg",
+            "category": "Smart Watches",
+            "specifications": [
+                "Premium Stainless Steel",
+                "2.0-inch OLED Display",
+                "Advanced Health Metrics",
+                "Wireless Charging"
+            ],
+            "rating": 4.7,
+            "description": "Premium design and features"
+        },
+        {
+            "id": "28",
+            "name": "Budget Smartwatch Lite",
+            "price": 80,
+            "imgUrl": "https://example.com/smartwatches/lite.jpg",
+            "category": "Smart Watches",
+            "specifications": [
+                "1.3-inch LCD Display",
+                "Basic Fitness Tracking",
+                "IP67 Water Resistance",
+                "5-Day Battery Life"
+            ],
+            "rating": 4.2,
+            "description": "Affordable and functional"
+        },
+        {
+            "id": "29",
+            "name": "Rugged Outdoor Watch",
+            "price": 250,
+            "imgUrl": "https://example.com/smartwatches/outdoor.jpg",
+            "category": "Smart Watches",
+            "specifications": [
+                "Shock-Resistant Build",
+                "GPS Navigation",
+                "Barometer & Compass",
+                "Military-Grade Durability"
+            ],
+            "rating": 4.6,
+            "description": "Built for outdoor adventures"
+        },
+        {
+            "id": "30",
+            "name": "Kids Smartwatch SafeZone",
+            "price": 100,
+            "imgUrl": "https://example.com/smartwatches/kids.jpg",
+            "category": "Smart Watches",
+            "specifications": [
+                "GPS Tracking",
+                "Parental Controls",
+                "2-Way Calling",
+                "Durable Design"
+            ],
+            "rating": 4.4,
+            "description": "Smartwatch for kids' safety"
+        },
+        {
+            "id": "31",
+            "name": "Wireless Earbuds X10",
+            "price": 100,
+            "imgUrl": "https://example.com/accessories/earbuds-x10.jpg",
+            "category": "Accessories",
+            "specifications": [
+                "Bluetooth 5.2",
+                "10mm Drivers",
+                "24-hour Battery",
+                "IPX5 Water Resistance"
+            ],
+            "rating": 4.3,
+            "description": "High-quality audio"
+        },
+        {
+            "id": "32",
+            "name": "Gaming Mouse Pro",
+            "price": 50,
+            "imgUrl": "https://example.com/accessories/gaming-mouse.jpg",
+            "category": "Accessories",
+            "specifications": [
+                "16000 DPI",
+                "RGB Lighting",
+                "Ergonomic Design",
+                "Wired/Wireless Mode"
+            ],
+            "rating": 4.6,
+            "description": "Precision gaming mouse"
+        },
+        {
+            "id": "33",
+            "name": "Mechanical Keyboard Z3",
+            "price": 120,
+            "imgUrl": "https://example.com/accessories/keyboard-z3.jpg",
+            "category": "Accessories",
+            "specifications": [
+                "Tactile Switches",
+                "RGB Backlighting",
+                "USB-C Connectivity",
+                "Compact 75% Layout"
+            ],
+            "rating": 4.8,
+            "description": "Premium typing experience"
+        },
+        {
+            "id": "34",
+            "name": "Portable Charger 20k",
+            "price": 40,
+            "imgUrl": "https://example.com/accessories/portable-charger.jpg",
+            "category": "Accessories",
+            "specifications": [
+                "20000mAh Capacity",
+                "USB-C PD Fast Charging",
+                "Dual USB Ports",
+                "Slim and Lightweight"
+            ],
+            "rating": 4.5,
+            "description": "Reliable power on-the-go"
+        },
+        {
+            "id": "35",
+            "name": "Smartwatch Docking Station",
+            "price": 25,
+            "imgUrl": "https://example.com/accessories/docking-station.jpg",
+            "category": "Accessories",
+            "specifications": [
+                "Magnetic Charging",
+                "Universal Compatibility",
+                "Fast Charge Support",
+                "Compact Design"
+            ],
+            "rating": 4.4,
+            "description": "Convenient charging dock"
+        },
+        {
+            "id": "36",
+            "name": "Noise-Cancelling Headphones",
+            "price": 200,
+            "imgUrl": "https://example.com/accessories/headphones.jpg",
+            "category": "Accessories",
+            "specifications": [
+                "Active Noise Cancellation",
+                "Bluetooth 5.0",
+                "30-hour Battery Life",
+                "Comfortable Ear Cups"
+            ],
+            "rating": 4.7,
+            "description": "Immersive sound experience"
+        }
+    ]
+}
