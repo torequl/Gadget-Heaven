@@ -3,6 +3,7 @@ import { ProductContext } from "../context/ProductContextApi";
 import { RiDeleteBin2Line } from "react-icons/ri";
 import Swal from "sweetalert2";
 import { useNavigate } from "react-router-dom";
+import { Helmet } from "react-helmet";
 
 const Dashboard = () => {
     const [isActive, setIsActive] = useState(true)
@@ -67,6 +68,9 @@ const Dashboard = () => {
 
     return (
         <>
+        <Helmet>
+            <title>Dashboard - Gadget Shop</title>
+        </Helmet>
             <div className="py-10 bg-theme px-6 md:px-80">
                 <h2 className="text-4xl text-white font-bold text-center">Product Details</h2>
                 <p className="text-center text-white">Explore the latest gadgets that will take your experience to the next level. From smart devices to the coolest accessories, we have it all!</p>

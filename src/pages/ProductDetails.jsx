@@ -3,6 +3,7 @@ import { BsCartPlus } from "react-icons/bs";
 import { IoMdHeartEmpty } from "react-icons/io";
 import { useLoaderData, useParams } from "react-router-dom";
 import { ProductContext } from "../context/ProductContextApi";
+import { Helmet } from "react-helmet";
 
 const ProductDetails = () => {
     const { handleAddToCart, handleWishlist } = useContext(ProductContext);
@@ -17,6 +18,9 @@ const ProductDetails = () => {
 
     return (
         <>
+        <Helmet>
+            <title>{name}</title>
+        </Helmet>
             <div className="pt-8 h-theme bg-theme px-6 md:px-80">
                 <h2 className="text-4xl text-white font-bold text-center">Product Details</h2>
                 <p className="text-center text-white">Explore the latest gadgets that will take your experience to the next level. From smart devices to the coolest accessories, we have it all!</p>

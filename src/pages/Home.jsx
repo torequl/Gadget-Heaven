@@ -1,6 +1,7 @@
 import { Link, useLoaderData } from 'react-router-dom';
 import bannerImg from '../assets/banner.jpg'
 import { useEffect, useState } from 'react';
+import { Helmet } from 'react-helmet';
 const Home = () => {
     const categoryLoaded = useLoaderData()
     const { categories } = categoryLoaded;
@@ -30,7 +31,10 @@ const Home = () => {
 
 
     return (
-        <div>
+        <>
+        <Helmet>
+            <title>Home - Gadget Shop</title>
+        </Helmet>
             <div className="hero bg-[#9538E2] pt-10 pb-56 w-11/12 mx-auto rounded-xl">
                 <div className="hero-content text-center">
                     <div className="max-w-3xl">
@@ -87,7 +91,7 @@ const Home = () => {
                     }
                 </div>
             </div>
-        </div>
+        </>
     );
 };
 
