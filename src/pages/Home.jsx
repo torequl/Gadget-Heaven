@@ -42,25 +42,25 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <div className='w-4/12 mx-auto -mt-44 backdrop-blur-lg border p-5 rounded-xl'>
-                <img className='rounded-xl' src={bannerImg} alt="" />
+            <div className='w-10/12 md:w-5/12 mx-auto -mt-44 backdrop-blur-lg border p-5 rounded-xl'>
+                <img className='rounded-xl object-cover' src={bannerImg} alt="" />
             </div>
 
             <h2 className='font-bold text-center text-3xl my-12'>Explore Cutting-Edge Gadgets</h2>
-            <div className='grid grid-cols-12 w-11/12 mx-auto gap-6'>
-                <div className='col-span-2 flex flex-col gap-4'>
+            <div className='grid grid-cols-1 md:grid-cols-12 w-11/12 mx-auto gap-6'>
+                <div className='col-span-1 md:col-span-2 flex flex-row flex-wrap md:flex-col gap-4'>
                     <h3 className='text-xl font-bold'>Categories ({categories.length})</h3>
-                    <Link onClick={() => {
+                    <button onClick={() => {
                         handleCategory('all');
                         setActive('category');
                     }}
                         className={`btn ${active === 'category' ? 'active-one' : "rounded-full"
                             }`}>
                         All Categories
-                    </Link>
+                    </button>
                     {
                         categories.map(category =>
-                            <Link
+                            <button
                                 onClick={() => {
                                     handleCategory(category.name);
                                     setActive(category.name);
@@ -69,10 +69,10 @@ const Home = () => {
                                 className={`btn ${active === category.name ? 'active-one' : "rounded-full"
                                     }`}>
                                 {category.name}
-                            </Link>)
+                            </button>)
                     }
                 </div>
-                <div className='col-span-10 grid grid-cols-3 gap-4'>
+                <div className='col-span-1 md:col-span-10 grid grid-cols-1 md:grid-cols-3 gap-4'>
                     {
                         products.slice(0, 9).map(product =>
                             <div key={product.id} className='border p-4 bg-purple-100 rounded-md'>

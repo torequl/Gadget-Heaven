@@ -67,10 +67,10 @@ const Dashboard = () => {
 
     return (
         <>
-            <div className="pt-8 h-theme bg-theme px-6 md:px-80">
+            <div className="py-10 bg-theme px-6 md:px-80">
                 <h2 className="text-4xl text-white font-bold text-center">Product Details</h2>
                 <p className="text-center text-white">Explore the latest gadgets that will take your experience to the next level. From smart devices to the coolest accessories, we have it all!</p>
-                <div className="mt-10 text-center space-x-6">
+                <div className="mt-10 flex flex-col md:flex-row gap-4 items-center justify-center">
                     <button onClick={() => setIsActive(!isActive)}
                         className={`${isActive ? 'active-btn' : 'no-active'}`}>Cart</button>
                     <button onClick={() => setIsActive(!isActive)}
@@ -99,18 +99,18 @@ const Dashboard = () => {
                                 <div className="space-y-4">
                                     {
                                         cartProducts.map(p => <div className="border rounded-lg grid grid-cols-12 items-center gap-5" key={p.id}>
-                                            <div className="col-span-2">
+                                            <div className="col-span-4 md:col-span-2">
                                                 <img src={p.imgUrl} alt="" />
                                             </div>
-                                            <div className="col-span-9 space-y-2">
-                                                <h3 className="text-2xl font-bold">{p.name}</h3>
+                                            <div className="col-span-6 md:col-span-9 space-y-2">
+                                                <h3 className="text-base md:text-2xl font-bold">{p.name}</h3>
                                                 <p className="text-base">{p.description}</p>
-                                                <h3 className="text-xl font-bold">Price $ {p.price}</h3>
+                                                <h3 className="text-base md:text-xl font-bold">Price $ {p.price}</h3>
                                             </div>
-                                            <div className="col-span-1">
+                                            <div className="col-span-2 md:col-span-1">
                                                 <span
                                                     onClick={() => handleCartRemove(p.id)}
-                                                    className="text-2xl cursor-pointer"><RiDeleteBin2Line /></span>
+                                                    className="text-2xl text-red-600 cursor-pointer"><RiDeleteBin2Line /></span>
                                             </div>
                                         </div>)
                                     }

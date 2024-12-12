@@ -23,7 +23,7 @@ const ProductDetails = () => {
             </div>
 
 
-            <div className="max-w-4xl -mt-52 mx-auto p-6 bg-white rounded-lg shadow-md border border-gray-200">
+            <div className="max-w-4xl w-11/12 -mt-20 md:-mt-52 mx-auto p-6 bg-white rounded-lg border">
                 {/* Product Image */}
                 <div className="flex flex-col md:flex-row">
                     <div className="w-full md:w-1/2 flex items-center justify-center bg-gray-200 rounded-lg">
