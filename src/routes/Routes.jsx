@@ -4,12 +4,15 @@ import Home from "../pages/Home";
 import ProductDetails from "../pages/ProductDetails";
 import Dashboard from "../pages/Dashboard";
 import Statistics from "../pages/Statistics";
+import ContactUs from "../pages/ContactUs";
+import Error from "../pages/Error";
 
 
 const routes = createBrowserRouter([
     {
         path: '/',
         element: <MainLayout />,
+        errorElement: <Error/>,
         children: [
             {
                 path: '/',
@@ -29,6 +32,10 @@ const routes = createBrowserRouter([
                 path: '/statistics',
                 element: <Statistics />
             },
+            {
+                path: '/contact-us',
+                element: <ContactUs/>
+            }
         ],
     },
 ])

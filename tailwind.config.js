@@ -9,6 +9,7 @@ export default {
     extend: {},
     height: {
       'theme': '350px',
+      'screen': '100vh',
     },
     colors: {
       'theme': '#9538E2',
