@@ -17,10 +17,9 @@ const Navbar = () => {
         <Link to='/statistics'>Statistics</Link>
     </>
 
-
     return (
         <div>
-            <div className={`navbar w-11/12 mx-auto ${pathname == '/' ? 'bg-theme text-white -mb-4 mt-4 rounded-lg' : 'bg-base-100'}`}>
+            <div className={`navbar w-11/12 mx-auto sticky top ${pathname == '/' ? 'bg-theme text-white -mb-4 mt-4 rounded-lg' : 'bg-base-100'}`}>
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

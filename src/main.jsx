@@ -12,7 +12,7 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
     <ProductContextApi>
       <RouterProvider router={routes} />
-      <ToastContainer position="top-center" autoClose={2000} />
+      <ToastContainer position="top-center" autoClose={1000} />
     </ProductContextApi>
   </StrictMode>,
 )

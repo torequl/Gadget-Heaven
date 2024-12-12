@@ -13,7 +13,6 @@ const Dashboard = () => {
 
     const [wishProducts, setWishProducts] = useState(wishlist)
 
-    cartProduct.map(p => p.imgUrl = 'https://dlcdnwebimgs.asus.com/gain/d664baf7-9e2d-4279-b99d-a149d0fc05f0/w800');
 
     // const totalPrice = cart.reduce((total, item) => total + item.price, 0);
     const totalPrice = cartProduct.reduce((total, item) => total + item.price, 0);

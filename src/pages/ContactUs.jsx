@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { BsFacebook, BsGoogle, BsInstagram, BsTwitter } from "react-icons/bs";
 
 const ContactUs = () => {
     const [formData, setFormData] = useState({
@@ -16,7 +17,6 @@ const ContactUs = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        console.log('Form submitted:', formData);
         alert('Thank you for contacting us!');
         setFormData({ firstName: '', lastName: '', email: '', phone: '', query: '' });
     };
@@ -113,16 +113,16 @@ const ContactUs = () => {
 
                 <div className="mt-6 flex justify-center space-x-4 text-blue-500">
                     <a href="#" aria-label="Twitter">
-                        <i className="fab fa-twitter"></i>
+                        <BsTwitter/>
                     </a>
                     <a href="#" aria-label="Facebook">
-                        <i className="fab fa-facebook"></i>
+                        <BsFacebook/>
                     </a>
                     <a href="#" aria-label="Google">
-                        <i className="fab fa-google"></i>
+                        <BsGoogle/>
                     </a>
                     <a href="#" aria-label="Instagram">
-                        <i className="fab fa-instagram"></i>
+                        <BsInstagram/>
                     </a>
                 </div>
             </div>
