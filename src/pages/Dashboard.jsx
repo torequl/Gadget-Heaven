@@ -77,6 +77,7 @@ const Dashboard = () => {
                         className={`${isActive ? 'no-active' : 'active-btn'}`}>Wishlist</button>
                 </div>
             </div>
+            
             <div className="w-11/12 mx-auto">
                 {
                     isActive ?
