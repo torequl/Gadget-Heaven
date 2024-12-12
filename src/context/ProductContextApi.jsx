@@ -19,6 +19,7 @@ const ProductContextApi = ({ children }) => {
         else {
             const newCartItem = [...wishlist, product]
             setWishlist(newCartItem);
+            toast.success(`${product.name} Added to the Wishlist`)
         }
     }
 

@@ -5,7 +5,7 @@ import { Helmet } from 'react-helmet';
 const Home = () => {
     const categoryLoaded = useLoaderData()
     const { categories } = categoryLoaded;
-    const [active, setActive] = useState(null)
+    const [active, setActive] = useState('category')
     const [allProducts, setAllProducts] = useState([]);
     const [products, setProducts] = useState([]);
     useEffect(() => {
@@ -27,8 +27,6 @@ const Home = () => {
         }
     };
     
-    products.map(p => p.imgUrl = 'https://dlcdnwebimgs.asus.com/gain/d664baf7-9e2d-4279-b99d-a149d0fc05f0/w800');
-
 
     return (
         <>
@@ -80,7 +78,9 @@ const Home = () => {
                     {
                         products.slice(0, 9).map(product =>
                             <div key={product.id} className='border p-4 bg-purple-100 rounded-md'>
-                                <img className='rounded-lg' src={product.imgUrl} alt="" />
+                                <div className='h-[200px]'>
+                                <img className='rounded-lg w-full object-cover bg-white h-[100%]' src={product.imgUrl} alt="" />
+                                </div>
                                 <h2 className='text-xl mt-4 font-bold'>{product.name}</h2>
                                 <p>{product.category}</p>
                                 <p className='text-lg text-blue-600 font-bold'>$ {product.price}</p>

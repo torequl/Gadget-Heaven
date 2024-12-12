@@ -4,7 +4,7 @@
             "id": "1",
             "name": "Gaming Laptop GX500",
             "price": 1200,
-            "imgUrl": "https://example.com/laptops/gx500.jpg",
+            "imgUrl": "https://s.yimg.com/ny/api/res/1.2/Iv81_EhCmnPSETEsXSwA9g--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTQ1NQ--/https://o.aolcdn.com/hss/storage/midas/9095c7624da6fe425cb00474af903664/200220858/ASUS+ROG+GX500+Gaming+Notebooks.jpg",
             "category": "Laptops",
             "specifications": [
                 "16GB RAM",
@@ -34,7 +34,7 @@
             "id": "3",
             "name": "Workstation Beast 900",
             "price": 2000,
-            "imgUrl": "https://example.com/laptops/wb900.jpg",
+            "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR81lae7kcS3ZmF3umzEw7cRI_BaMrP6qiJ9g&s",
             "category": "Laptops",
             "specifications": [
                 "32GB RAM",
@@ -49,7 +49,7 @@
             "id": "4",
             "name": "Budget Laptop A200",
             "price": 400,
-            "imgUrl": "https://example.com/laptops/a200.jpg",
+            "imgUrl": "https://www.cnet.com/a/img/resize/6111743d0f9f795ca9818cd39069c8980c6639ba/hub/2008/02/27/5292d63a-cc2e-11e2-9a4a-0291187b029a/tosh_1.jpg?auto=webp&width=768",
             "category": "Laptops",
             "specifications": [
                 "4GB RAM",
@@ -64,7 +64,7 @@
             "id": "5",
             "name": "2-in-1 Convertible Laptop",
             "price": 700,
-            "imgUrl": "https://example.com/laptops/convertible.jpg",
+            "imgUrl": "https://p4-ofp.static.pub//fes/cms/2024/07/05/xhc9lbrmvl0ydcvf02uvlf0ozecfz1585540.png",
             "category": "Laptops",
             "specifications": [
                 "8GB RAM",
@@ -79,7 +79,7 @@
             "id": "6",
             "name": "Professional Laptop ProMax",
             "price": 1500,
-            "imgUrl": "https://example.com/laptops/promax.jpg",
+            "imgUrl": "https://5.imimg.com/data5/SELLER/Default/2023/9/348334690/XJ/BF/XR/144393764/xiaomi-notebook-pro-max-11th-gen-intel-core-i5-11320h-thin-amp-light-laptop-500x500.jpg",
             "category": "Laptops",
             "specifications": [
                 "16GB RAM",
@@ -94,7 +94,7 @@
             "id": "7",
             "name": "Smartphone Z12",
             "price": 800,
-            "imgUrl": "https://example.com/phones/z12.jpg",
+            "imgUrl": "https://gearjet.com.bd/wp-content/uploads/2020/09/Symphone-z12.jpg",
             "category": "Phones",
             "specifications": [
                 "6.5-inch OLED",
@@ -109,7 +109,7 @@
             "id": "8",
             "name": "Smartphone A20",
             "price": 300,
-            "imgUrl": "https://example.com/phones/a20.jpg",
+            "imgUrl": "https://cdn.mos.cms.futurecdn.net/mz3Ca3qniC7ZUbCVBoatu9.jpg",
             "category": "Phones",
             "specifications": [
                 "6.1-inch LCD",
@@ -124,7 +124,7 @@
             "id": "9",
             "name": "Smartphone Ultra X",
             "price": 1000,
-            "imgUrl": "https://example.com/phones/ultrax.jpg",
+            "imgUrl": "https://gizmodo.uol.com.br/wp-content/blogs.dir/8/files/2024/06/galaxy-s24-ultrax-iphone-15-pro-max.webp",
             "category": "Phones",
             "specifications": [
                 "6.7-inch AMOLED",
@@ -139,7 +139,7 @@
             "id": "10",
             "name": "Budget Smartphone M10",
             "price": 200,
-            "imgUrl": "https://example.com/phones/m10.jpg",
+            "imgUrl": "https://akm-img-a-in.tosshub.com/indiatoday/images/bodyeditor/201902/galaxy_m10_main-770x900.JPG?JC2fBMzur2tzgsaUE2VyOoCK_lYKcrMP",
             "category": "Phones",
             "specifications": [
                 "6-inch LCD",
@@ -154,7 +154,7 @@
             "id": "11",
             "name": "Gaming Smartphone Pro",
             "price": 700,
-            "imgUrl": "https://example.com/phones/gamingpro.jpg",
+            "imgUrl": "https://www.notebookcheck.net/fileadmin/Notebooks/Asus/ROG_Phone_6_Pro/Asus_ROG_Phone_6_Pro_3445_2.jpg",
             "category": "Phones",
             "specifications": [
                 "6.8-inch AMOLED",
@@ -169,7 +169,7 @@
             "id": "12",
             "name": "5G Smartphone Max",
             "price": 600,
-            "imgUrl": "https://example.com/phones/5gmax.jpg",
+            "imgUrl": "https://i.gadgets360cdn.com/large/hmd_crest_max_1721909615106.jpg",
             "category": "Phones",
             "specifications": [
                 "6.5-inch OLED",
@@ -184,7 +184,7 @@
             "id": "13",
             "name": "iPhone 14 Pro Max",
             "price": 1199,
-            "imgUrl": "https://example.com/iphones/iphone14-pro-max.jpg",
+            "imgUrl": "https://static0.pocketlintimages.com/wordpress/wp-content/uploads/2023/03/apple-iphone-14-pro-max.jpg",
             "category": "iPhones",
             "specifications": [
                 "6.7-inch Super Retina XDR",
@@ -199,7 +199,7 @@
             "id": "14",
             "name": "iPhone 13 Mini",
             "price": 699,
-            "imgUrl": "https://example.com/iphones/iphone13-mini.jpg",
+            "imgUrl": "https://www.apple.com/newsroom/images/product/iphone/standard/Apple_iphone13_hero_09142021_inline.jpg.slideshow-large.jpg",
             "category": "iPhones",
             "specifications": [
                 "5.4-inch Super Retina XDR",
@@ -214,7 +214,7 @@
             "id": "15",
             "name": "iPhone 12",
             "price": 599,
-            "imgUrl": "https://example.com/iphones/iphone12.jpg",
+            "imgUrl": "https://adminapi.applegadgetsbd.com/storage/media/large/1533-48820.jpg",
             "category": "iPhones",
             "specifications": [
                 "6.1-inch Super Retina XDR",
@@ -229,7 +229,7 @@
             "id": "16",
             "name": "iPhone SE (3rd Gen)",
             "price": 429,
-            "imgUrl": "https://example.com/iphones/iphone-se-2022.jpg",
+            "imgUrl": "https://adminapi.applegadgetsbd.com/storage/media/large/5020-35964.jpg",
             "category": "iPhones",
             "specifications": [
                 "4.7-inch Retina HD Display",
@@ -244,7 +244,7 @@
             "id": "17",
             "name": "iPhone 11 Pro",
             "price": 899,
-            "imgUrl": "https://example.com/iphones/iphone11-pro.jpg",
+            "imgUrl": "https://adminapi.applegadgetsbd.com/storage/media/large/iPhone-11-White-6618.jpg",
             "category": "iPhones",
             "specifications": [
                 "5.8-inch Super Retina XDR",
@@ -259,7 +259,7 @@
             "id": "18",
             "name": "iPhone XR",
             "price": 499,
-            "imgUrl": "https://example.com/iphones/iphone-xr.jpg",
+            "imgUrl": "https://www.apple.com/newsroom/images/product/iphone/standard/iPhone_XR_red-back_09122018_carousel.jpg.large.jpg",
             "category": "iPhones",
             "specifications": [
                 "6.1-inch Liquid Retina HD",
@@ -274,7 +274,7 @@
             "id": "19",
             "name": "MacBook Air M1",
             "price": 999,
-            "imgUrl": "https://example.com/macbooks/macbook-air-m1.jpg",
+            "imgUrl": "https://adminapi.applegadgetsbd.com/storage/media/large/2323-92738.jpg",
             "category": "MacBook",
             "specifications": [
                 "Apple M1 Chip",
@@ -289,7 +289,7 @@
             "id": "20",
             "name": "MacBook Pro 14-inch M1 Pro",
             "price": 1999,
-            "imgUrl": "https://example.com/macbooks/macbook-pro-14.jpg",
+            "imgUrl": "https://adminapi.applegadgetsbd.com/storage/media/large/3710-10824.jpg",
             "category": "MacBook",
             "specifications": [
                 "Apple M1 Pro Chip",
@@ -304,7 +304,7 @@
             "id": "21",
             "name": "MacBook Air M2",
             "price": 1299,
-            "imgUrl": "https://example.com/macbooks/macbook-air-m2.jpg",
+            "imgUrl": "https://adminapi.applegadgetsbd.com/storage/media/large/MacBook-Air-M2-15-inch-8-CPU-10-GPU-Midnight-2449.jpg",
             "category": "MacBook",
             "specifications": [
                 "Apple M2 Chip",
@@ -319,7 +319,7 @@
             "id": "22",
             "name": "MacBook Pro 16-inch M1 Max",
             "price": 2999,
-            "imgUrl": "https://example.com/macbooks/macbook-pro-16.jpg",
+            "imgUrl": "https://adminapi.applegadgetsbd.com/storage/media/large/3715-45148.jpg",
             "category": "MacBook",
             "specifications": [
                 "Apple M1 Max Chip",
@@ -334,7 +334,7 @@
             "id": "23",
             "name": "MacBook Air 2020 Intel",
             "price": 899,
-            "imgUrl": "https://example.com/macbooks/macbook-air-intel.jpg",
+            "imgUrl": "https://istockbd.com/cdn/shop/products/macair2020_2aedacac-5b9b-4bb3-81a8-171ee7dd3dae.jpg?v=1604045292&width=720",
             "category": "MacBook",
             "specifications": [
                 "Intel Core i5",
@@ -349,7 +349,7 @@
             "id": "24",
             "name": "MacBook Pro 13-inch M2",
             "price": 1499,
-            "imgUrl": "https://example.com/macbooks/macbook-pro-13.jpg",
+            "imgUrl": "https://computermania-bd.b-cdn.net/wp-content/uploads/Apple-3-3.jpg",
             "category": "MacBook",
             "specifications": [
                 "Apple M2 Chip",
@@ -364,7 +364,7 @@
             "id": "25",
             "name": "Smartwatch Series 6",
             "price": 400,
-            "imgUrl": "https://example.com/smartwatches/series6.jpg",
+            "imgUrl": "https://www.shopz.com.bd/wp-content/uploads/2021/06/HW22-SmartWatch-series-6.jpg",
             "category": "Smart Watches",
             "specifications": [
                 "Always-On Retina Display",
@@ -379,7 +379,7 @@
             "id": "26",
             "name": "Fitness Watch FitPro",
             "price": 150,
-            "imgUrl": "https://example.com/smartwatches/fitpro.jpg",
+            "imgUrl": "https://gadgetz.com.bd/wp-content/uploads/2023/01/Fit-Pro-T500.jpg",
             "category": "Smart Watches",
             "specifications": [
                 "Fitness Tracking",
@@ -394,7 +394,7 @@
             "id": "27",
             "name": "Luxury Smartwatch Luxe",
             "price": 600,
-            "imgUrl": "https://example.com/smartwatches/luxe.jpg",
+            "imgUrl": "https://m.media-amazon.com/images/I/71Cjuhqu0SL.jpg",
             "category": "Smart Watches",
             "specifications": [
                 "Premium Stainless Steel",
@@ -409,7 +409,7 @@
             "id": "28",
             "name": "Budget Smartwatch Lite",
             "price": 80,
-            "imgUrl": "https://example.com/smartwatches/lite.jpg",
+            "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyCYBQXULOJc9MZcApy0dKD83xDL88Q2bc5A&s",
             "category": "Smart Watches",
             "specifications": [
                 "1.3-inch LCD Display",
@@ -424,7 +424,7 @@
             "id": "29",
             "name": "Rugged Outdoor Watch",
             "price": 250,
-            "imgUrl": "https://example.com/smartwatches/outdoor.jpg",
+            "imgUrl": "https://d2kbvjszk9d5ln.cloudfront.net/yshop/upload/pic/blackview-r6-20220104035801420.jpg",
             "category": "Smart Watches",
             "specifications": [
                 "Shock-Resistant Build",
@@ -439,7 +439,7 @@
             "id": "30",
             "name": "Kids Smartwatch SafeZone",
             "price": 100,
-            "imgUrl": "https://example.com/smartwatches/kids.jpg",
+            "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8Dzlu1Vkz1rn9zU4o_kChp2hNXzXkFP4yEg&s",
             "category": "Smart Watches",
             "specifications": [
                 "GPS Tracking",
@@ -454,7 +454,7 @@
             "id": "31",
             "name": "Wireless Earbuds X10",
             "price": 100,
-            "imgUrl": "https://example.com/accessories/earbuds-x10.jpg",
+            "imgUrl": "https://image.made-in-china.com/2f0j00GCMfawotZqkA/Tws-Wireless-Bluetooth-Earphone-X10-Noise-Cancelling-5-0-Support-Siri-Wake-Headset-with-Mic-Mi.webp",
             "category": "Accessories",
             "specifications": [
                 "Bluetooth 5.2",
@@ -469,7 +469,7 @@
             "id": "32",
             "name": "Gaming Mouse Pro",
             "price": 50,
-            "imgUrl": "https://example.com/accessories/gaming-mouse.jpg",
+            "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpMto2Qf8D91MGm74gCPEQya0cbokHs1IiEg&s",
             "category": "Accessories",
             "specifications": [
                 "16000 DPI",
@@ -484,7 +484,7 @@
             "id": "33",
             "name": "Mechanical Keyboard Z3",
             "price": 120,
-            "imgUrl": "https://example.com/accessories/keyboard-z3.jpg",
+            "imgUrl": "https://m.media-amazon.com/images/I/51Gk3QnQTHL.jpg",
             "category": "Accessories",
             "specifications": [
                 "Tactile Switches",
@@ -499,7 +499,7 @@
             "id": "34",
             "name": "Portable Charger 20k",
             "price": 40,
-            "imgUrl": "https://example.com/accessories/portable-charger.jpg",
+            "imgUrl": "https://www.gadstyle.com/wp-content/uploads/2023/08/anker-325-20000-mah-power-bank-a1286-5.webp",
             "category": "Accessories",
             "specifications": [
                 "20000mAh Capacity",
@@ -514,7 +514,7 @@
             "id": "35",
             "name": "Smartwatch Docking Station",
             "price": 25,
-            "imgUrl": "https://example.com/accessories/docking-station.jpg",
+            "imgUrl": "https://mobgr.co.uk/cdn/shop/products/5-in-1-Wireless-Fast-Charging-Dock-Station-For-Apple-Watch-For-iPhone-Apple-Airpods-mobgr-1670710980.jpg",
             "category": "Accessories",
             "specifications": [
                 "Magnetic Charging",
@@ -529,7 +529,7 @@
             "id": "36",
             "name": "Noise-Cancelling Headphones",
             "price": 200,
-            "imgUrl": "https://example.com/accessories/headphones.jpg",
+            "imgUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTL4gURwSB6JhgxWUQ8xi58uJZkA6d_BJgE0A&s",
             "category": "Accessories",
             "specifications": [
                 "Active Noise Cancellation",

@@ -100,6 +100,7 @@ const Dashboard = () => {
                                     </div>
                                 </div>
                             </div>
+
                             <div className="w-full md:w-10/12 mx-auto mt-10 gap-5">
                                 <div className="space-y-4">
                                     {
@@ -131,22 +132,22 @@ const Dashboard = () => {
                             <div className="w-full md:w-10/12 mx-auto mt-10 gap-5">
                                 <div className="space-y-4">
                                     {
-                                        wishProducts.map(p => <div className="border rounded-lg py-4 grid grid-cols-12 items-center gap-5" key={p.id}>
-                                            <div className="col-span-2">
+                                        wishProducts.map(p => <div className="border rounded-lg grid grid-cols-12 items-center gap-5" key={p.id}>
+                                            <div className="col-span-4 md:col-span-2">
                                                 <img src={p.imgUrl} alt="" />
                                             </div>
-                                            <div className="col-span-9 space-y-2">
-                                                <h3 className="text-2xl font-bold">{p.name}</h3>
+                                            <div className="col-span-6 md:col-span-9 space-y-2">
+                                                <h3 className="text-base md:text-2xl font-bold">{p.name}</h3>
                                                 <p className="text-base">{p.description}</p>
-                                                <h3 className="text-xl font-bold">Price $ {p.price}</h3>
+                                                <h3 className="text-base md:text-xl font-bold">Price $ {p.price}</h3>
                                                 <button
                                                     onClick={() => wishAddToCart(p.id)}
                                                     className="btn bg-theme text-white rounded-full">Add to Cart</button>
                                             </div>
-                                            <div className="col-span-1">
+                                            <div className="col-span-2 md:col-span-1">
                                                 <span
                                                     onClick={() => handleWishRemove(p.id)}
-                                                    className="text-2xl cursor-pointer"><RiDeleteBin2Line /></span>
+                                                    className="text-2xl text-red-600 cursor-pointer"><RiDeleteBin2Line /></span>
                                             </div>
                                         </div>)
                                     }

@@ -4,6 +4,7 @@ import { IoMdHeartEmpty } from "react-icons/io";
 import { useLoaderData, useParams } from "react-router-dom";
 import { ProductContext } from "../context/ProductContextApi";
 import { Helmet } from "react-helmet";
+import ScrollToTop from "../components/ScrollToTop ";
 
 const ProductDetails = () => {
     const { handleAddToCart, handleWishlist } = useContext(ProductContext);
@@ -12,15 +13,14 @@ const ProductDetails = () => {
     const { products } = productLoaded;
     const product = products.find(p => p.name === id)
     const { name, price, imgUrl, category, rating, description, specifications } = product;
-    
-    product.imgUrl = 'https://dlcdnwebimgs.asus.com/gain/d664baf7-9e2d-4279-b99d-a149d0fc05f0/w800'
 
 
     return (
         <>
-        <Helmet>
-            <title>{name}</title>
-        </Helmet>
+        <ScrollToTop/>
+            <Helmet>
+                <title>{name}</title>
+            </Helmet>
             <div className="pt-8 h-theme bg-theme px-6 md:px-80">
                 <h2 className="text-4xl text-white font-bold text-center">Product Details</h2>
                 <p className="text-center text-white">Explore the latest gadgets that will take your experience to the next level. From smart devices to the coolest accessories, we have it all!</p>
@@ -67,7 +67,7 @@ const ProductDetails = () => {
 
                         {/* Buttons */}
                         <div className="mt-6 flex items-center space-x-4">
-                            <button onClick={()=> handleAddToCart(product)} className="btn btn-primary flex-1">
+                            <button onClick={() => handleAddToCart(product)} className="btn btn-primary flex-1">
                                 <span className="mr-2">Add To Cart</span>
                                 <BsCartPlus className="text-2xl" />
                             </button>

@@ -7,6 +7,7 @@ import ProductContextApi from './context/ProductContextApi'
 import { ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css';
 
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <ProductContextApi>
